@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "SF-Pro-Display-Bold";
+    src: url(../font/SF-Pro-Display-Bold.ttf) format('truetype')
+}    
+
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url(../font/Product\ Sans\ Regular.ttf);
+}
+
+
+
+    
+
+.title1 {
+    font-family: SF-Pro-Display-Bold;
+    text-align: center;
+    font-size: 5em;
+    background: linear-gradient(90deg, #ee3333, #ee7009, #eec409, #83ee09,  #09ee28,  #eedf09, #ee098f);
+    background-color: black;
+    -webkit-text-fill-color: white;
+    
+}
+
+
+.titledx {
+    font-family: SF-Pro-Display-Bold;
+    text-align: right;
+    font-size: 2.5em;
+    padding: 25px;
+}
+
+.paragrafo1 {
+    font-family: Product Sans Regular;
+    text-align: right;
+    margin-left: 30px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+
+
+.titlesx{
+    font-family: SF-Pro-Display-Bold;
+    text-align: left;
+    font-size: 2.5em;
+    padding: 25px;
+    flex: 1 1 60%;
+}
+.contenitore-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap; /*layout responsive */
+}
+
+.testo {
+    flex: 1 1 60%;
+}
+
+.immagine {
+    flex: 1 1 35%;
+}
+
+.p2 {
+    font-family: Product Sans Regular;
+    font-size: 1.2em;
+    margin-left: 10px;
+    line-height: 1.6;
+}
+
+.figure {
+    margin: 0;
+    text-align: right;
+}
+
+.figure1 {
+    flex: 1 1 35%;
+    margin: 0;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.text-end1{
+    text-align: left;
+}
+
+.testo-dx {
+    flex: 1 1 60%;
+    text-align: right;
+}
+
+
+
+.testo-sx {
+  flex: 1 1 60%;
+  text-align: left;
+}
+
+.immagine {
+  flex: 1 1 35%;
+  text-align: right;
+}
+
+.p3 {
+    font-family: Product Sans Regular;
+    font-size: 1.5em;
+    margin-left: 10px;
+    line-height: 1.6;
+}
